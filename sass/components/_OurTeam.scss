@@ -5,32 +5,51 @@
 }
 
 .our-team__title {
-	margin-bottom: 50px;
 	text-align: center;
+	margin-bottom: 30px;	
+	@media screen and (min-width:768px)  {
+	margin-bottom: 50px;	
+	}
+	
+	
 }
-
 .our-team__list {
-	display: flex;
-	margin: 0px;
+@media screen and (min-width:768px){
+display: flex;
+flex-wrap: wrap;
+margin: -15px;
 }
+}	
 
 .our-team__item {
-	width: 270px;
 	background: var(--color-d);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
-	& + &{
-		margin-left: 30px;
-	}
+@media screen and (min-width:768px){
+	width: 354px;
+	margin: 15px;
+}
+@media screen and (min-width:1200px)  {
+width: 270px;
+}
+
+& + &{
+@media screen and (max-width:767px){
+	margin-top: 30px;}
+}
 }
 
 
 
 .our-team__box {
 	padding-top: 30px;
+	padding-bottom: 24px;
+	@media screen and (min-width:768px) and (max-width:1199px) {
+		
+	}
+	@media screen and (min-width:1200px){
 	padding-bottom: 30px;
-	padding-left: 32px;
-	padding-right: 32px;
+	}
 }
 
 .our-team__name {
@@ -49,6 +68,7 @@
 .networks-of-people-list {
 	margin-top: 16px;
 	display: flex;
+	justify-content: center;
 }
 
 

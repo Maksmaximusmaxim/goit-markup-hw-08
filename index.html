@@ -34,18 +34,51 @@
 
             <nav class="navbar">
                 <ul class="navbar__list list">
-                    <li class="navbar__item"> <a class="navbar__link navbar__link--active " href="./index.html">Студия</a> </li>
+                    <li class="navbar__item"> <a class="navbar__link navbar__link--active "
+                            href="./index.html">Студия</a> </li>
                     <li class="navbar__item"> <a class="navbar__link " href="./portfolio.html">Портфолио </a></li>
                     <li class="navbar__item"> <a class="navbar__link" href="">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="header-list list">
-                <li class="header-list__item "> <a class="header-list__link " href="mailto:info@devstudio.com"><svg class="header-list__icon"  width="16"
-                    height="12" ><use href="img/symbol-defs.svg#icon-header-logo-a"  ></use></svg>info@devstudio.com</a> </li>
-                <li class="header-list__item "> <a class="header-list__link " href="tel:+380961111111"><svg class="header-list__icon" width="16"
-                    height="12"  ><use href="img/symbol-defs.svg#icon-header-logo-b"></use></svg>+38 096 111 11 11</a> </li>
+                <li class="header-list__item "> <a class="header-list__link " href="mailto:info@devstudio.com"><svg
+                            class="header-list__icon" width="16" height="12">
+                            <use href="img/symbol-defs.svg#icon-header-logo-a"></use>
+                        </svg>info@devstudio.com</a> </li>
+                <li class="header-list__item "> <a class="header-list__link " href="tel:+380961111111"><svg
+                            class="header-list__icon" width="16" height="12">
+                            <use href="img/symbol-defs.svg#icon-header-logo-b"></use>
+                        </svg>+38 096 111 11 11</a> </li>
             </ul>
+        
+        <button type="button" class="menu-button is-open" aria-expanded="false" data-menu-button>
+            <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                <use class="menu-button__icon--cross" href="./img/modal-window-icon-mobile.svg#icon-close_40px"></use>
+                <use class="menu-button__icon--menu" href="./img/modal-window-icon-mobile.svg#icon-menu_40px"></use>
+            </svg>
+        </button>
+        <div class="mobile__menu-container" data-menu>
+            <ul class="mobile__list">
+                <li class="mobile__item"><a href="./index.html" class="mobile__link">Студия</a></li>
+                <li class="mobile__item"><a href="./portfolio.html" class="mobile__link">Портфолио</a></li>
+                <li class="mobile__item"><a href="" class="mobile__link">Контакты</a></li>
+            </ul>
+            <div class="mobile__block">
+                <ul class="mobile__contakts">
+                    <li class="mobile__contakts-item"><a class="mobile__contakts-tel" href="tel:380961111111">+38
+                            096 111 11 11</a></li>
+                    <li class="mobile__contakts-item"><a class="mobile__contakts-mail"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>
+                <ul class="mobile__social">
+                    <li class="mobile__social-icon"><a class="mobile__social-link" href="">Instagram</a></li>
+                    <li class="mobile__social-icon"><a class="mobile__social-link" href="">Twitter</a></li>
+                    <li class="mobile__social-icon"><a class="mobile__social-link" href="">Facebook</a></li>
+                    <li class="mobile__social-icon"><a class="mobile__social-link" href="">LinkedIn</a></li>
+                </ul>
+            </div>
         </div>
+    </div>
     </header>
     <main>
 
@@ -57,11 +90,11 @@
         </section>
 
 
-        <section class="section ">
+        <section class="section  ">
 
             <div class="container">
-               
-                
+
+
 
 
 
@@ -71,16 +104,18 @@
 
                 <ul class="list OurAdvantages">
                     <li class="OurAdvantages__item">
-                        <div class="OurAdvantages__box"><svg class="OurAdvantages__icon" width="70"
-                            height="70" > <use href="img/symbol-defs.svg#icon-icon-in-main-a" > </use> </svg></div>
+                        <div class="OurAdvantages__box"><svg class="OurAdvantages__icon" width="70" height="70">
+                                <use href="img/symbol-defs.svg#icon-icon-in-main-a"> </use>
+                            </svg></div>
                         <h3 class="OurAdvantages__title">Внимание к деталям</h3>
                         <p class="OurAdvantages__text ">Идейные соображения, а также начало повседневной работы по
                             формированию позиции.</p>
                     </li>
 
                     <li class="OurAdvantages__item">
-                        <div class="OurAdvantages__box"> <svg class=OurAdvantages__icon" width="70"
-                            height="70"> <use href="img/symbol-defs.svg#icon-icon-in-main-b" > </use> </svg></div>
+                        <div class="OurAdvantages__box"> <svg class="OurAdvantages__icon" width="70" height="70">
+                                <use href="img/symbol-defs.svg#icon-icon-in-main-b"> </use>
+                            </svg></div>
                         <h3 class="OurAdvantages__title">Пунктуальность</h3>
                         <p class="OurAdvantages__text ">Задача организации, в особенности же рамки и место обучения
                             кадров влечет за собой.
@@ -88,8 +123,9 @@
                     </li>
 
                     <li class="OurAdvantages__item">
-                        <div class="OurAdvantages__box"><svg class="OurAdvantages__icon" width="70"
-                            height="70"> <use href="img/symbol-defs.svg#icon-icon-in-main-c" > </use> </svg></div>
+                        <div class="OurAdvantages__box"><svg class="OurAdvantages__icon" width="70" height="70">
+                                <use href="img/symbol-defs.svg#icon-icon-in-main-c"> </use>
+                            </svg></div>
                         <h3 class="OurAdvantages__title">Планирование</h3>
                         <p class="OurAdvantages__text ">Равным образом консультация с широким активом в
                             значительной степени обуславливает.
@@ -97,8 +133,9 @@
                     </li>
 
                     <li class="OurAdvantages__item">
-                        <div class="OurAdvantages__box"><svg class="OurAdvantages__icon" width="70"
-                            height="70"> <use href="img/symbol-defs.svg#icon-icon-in-main-d" > </use> </svg></div>
+                        <div class="OurAdvantages__box"><svg class="OurAdvantages__icon" width="70" height="70">
+                                <use href="img/symbol-defs.svg#icon-icon-in-main-d"> </use>
+                            </svg></div>
                         <h3 class="OurAdvantages__title">Современные технологии</h3>
                         <p class=" OurAdvantages__text">Значимость этих проблем настолько очевидна, что реализация
                             плановых заданий.</p>
@@ -109,9 +146,29 @@
             <div class="container  ">
                 <h2 class=" what-are-we-doing__title">Чем мы занимаемся</h2>
                 <ul class="list  what-are-we-doing__list ">
-                    <li class="what-are-we-doing__item"><div class="what-are-we-doing--position"><img src="img/l.png" alt="kartinka" width="370" /><div class="what-are-we-doing--bgcolor"><p class="what-are-we-doing__text">Десктопные приложения</p></div></div></li>
-                    <li class="what-are-we-doing__item"><div class="what-are-we-doing--position"><img src="img/m.png" alt="kartinka" width="370" /><div class="what-are-we-doing--bgcolor"><p class="what-are-we-doing__text">Мобильные приложения</p></div></div></li>
-                    <li class="what-are-we-doing__item"><div class="what-are-we-doing--position"><img src="img/n.png" alt="kartinka" width="370" /><div class="what-are-we-doing--bgcolor"><p class="what-are-we-doing__text">Дизайнерские решения</p></div></div></li>
+                    <li class="what-are-we-doing__item">
+                        <div class="what-are-we-doing--position"><img 
+                         
+                            src="img/l.png" alt="kartinka" width="370" />
+                            <div class="what-are-we-doing--bgcolor">
+                                <p class="what-are-we-doing__text">Десктопные приложения</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="what-are-we-doing__item">
+                        <div class="what-are-we-doing--position"><img src="img/m.png" alt="kartinka" width="370" />
+                            <div class="what-are-we-doing--bgcolor">
+                                <p class="what-are-we-doing__text">Мобильные приложения</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="what-are-we-doing__item">
+                        <div class="what-are-we-doing--position"><img src="img/n.png" alt="kartinka" width="370" />
+                            <div class="what-are-we-doing--bgcolor">
+                                <p class="what-are-we-doing__text">Дизайнерские решения</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
 
@@ -120,95 +177,162 @@
         <section class="section our-team ">
             <div class="container ">
                 <h2 class=" our-team__title ">Наша команда</h2>
-              
+
                 <ul class="list  our-team__list  ">
 
 
-                    <li class=" our-team__item"><img src="img/o.jpg" alt="содрудник компании,человек" width="270"
-                            height="260" />
+                    <li class=" our-team__item"><img  
+                        srcset="
+                        ./img/o.jpg 270w,
+                        ./img/o-tablet@1x.jpg 354w,
+                        ./img/o-mobile@1x.jpg 450w,
+                        ./img/o-computer@2x.jpg 540w,
+                        ./img/o-tablet@2x.jpg 708w,
+                        ./img/o-mobile@2x.jpg 900w
+                        "
+                        src="img/o.jpg" alt="содрудник компании,человек" sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px,(min-width:480px) 450px, 100vw   "
+                             />
                         <div class="our-team__box">
                             <h3 class="our-team__name">Игорь Демьяненко</h3>
 
                             <p class="our-team__text ">Product Designer</p>
                             <ul class="networks-of-people-list">
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="20"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-a" ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon"  width="20"
-                                    height="16.25"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-b" ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="10"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-c" ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="20"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-d" ></use></svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-a"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="16.25">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-b"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="10" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-c"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-d"></use>
+                                        </svg></a></li>
                             </ul>
-                           
+
                         </div>
                     </li>
 
 
 
 
-                    <li class="our-team__item"> <img src="img/p.jpg" alt="содрудник компании,человек" width="270"
-                            height="260" />
+                    <li class="our-team__item"> <img 
+                        srcset="
+                        ./img/p.jpg 270w,
+                        ./img/p-tablet@1x.jpg 354w,
+                        ./img/p-mobile@1x.jpg 450w,
+                        ./img/p-computer@2x.jpg 540w,
+                        ./img/p-tablet@2x.jpg 708w,
+                        ./img/p-mobile@2x.jpg 900w
+                        "
+                        src="./img/p.jpg" alt="содрудник компании,человек" sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px,(min-width:480px) 450px, 100vw   "
+                             />
                         <div class="our-team__box">
                             <h3 class="our-team__name">Ольга Репина</h3>
 
                             <p class="our-team__text nadpis-b">Frontend Developer</p>
                             <ul class="networks-of-people-list">
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon"  width="20"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-a" ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="20"
-                                    height="16.25"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-b" ></use></svg></a></li>
-                                    <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="10"
-                                        height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-c" ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="20"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-d" ></use></svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-a"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="16.25">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-b"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="10" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-c"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-d"></use>
+                                        </svg></a></li>
                             </ul>
-                          
+
                         </div>
                     </li>
 
 
 
-                    <li class="our-team__item"><img src="img/q.jpg" alt="содрудник компании,человек" width="270"
-                            height="260" />
+                    <li class="our-team__item"><img 
+                        srcset="
+                        ./img/q.jpg 270w,
+                        ./img/q-tablet@1x.jpg 354w,
+                        ./img/q-mobile@1x.jpg 450w,
+                        ./img/q-computer@2x.jpg 540w,
+                        ./img/q-tablet@2x.jpg 708w,
+                        ./img/q-mobile@2x.jpg 900w
+                        "
+                        src="img/q.jpg" alt="содрудник компании,человек" sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px,(min-width:480px) 450px, 100vw   "
+                             />
                         <div class="our-team__box">
                             <h3 class="our-team__name">Николай Тарасов</h3>
 
                             <p class="our-team__text nadpis-c">Marketing</p>
                             <ul class="networks-of-people-list">
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon"  width="20"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-a"  ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="20"
-                                    height="16.25"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-b" ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="10"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-c" ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="20"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-d" ></use></svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-a"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="16.25">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-b"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="10" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-c"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-d"></use>
+                                        </svg></a></li>
                             </ul>
-                           
+
                         </div>
                     </li>
 
 
 
-                    <li class="our-team__item"> <img src="img/r.jpg" alt="содрудник компании,человек" width="270"
-                            height="260" />
+                    <li class="our-team__item"> <img
+                        srcset="
+                        ./img/r.jpg 270w,
+                        ./img/r-tablet@1x.jpg 354w,
+                        ./img/r-mobile@1x.jpg 450w,
+                        ./img/r-computer@2x.jpg 540w,
+                        ./img/r-tablet@2x.jpg 708w,
+                        ./img/r-mobile@2x.jpg 900w
+                        "
+                        src="img/r.jpg" alt="содрудник компании,человек" sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px,(min-width:480px) 450px, 100vw   "
+                             />
                         <div class="our-team__box">
                             <h3 class="our-team__name">Михаил Ермаков</h3>
 
                             <p class="our-team__text nadpis-d">UI Designer</p>
-                          
                             <ul class="networks-of-people-list">
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon"  width="20"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-a"  ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="20"
-                                    height="16.25"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-b" ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="10"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-c" ></use></svg></a></li>
-                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg class="networks-of-people__icon" width="20"
-                                    height="20"><use href="img/symbol-defs.svg#icon-sosial-seti-ludei-d" ></use></svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-a"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="16.25">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-b"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="10" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-c"></use>
+                                        </svg></a></li>
+                                <li class="networks-of-people__item"><a class="networks-of-people__link" href=""><svg
+                                            class="networks-of-people__icon" width="20" height="20">
+                                            <use href="img/symbol-defs.svg#icon-sosial-seti-ludei-d"></use>
+                                        </svg></a></li>
                             </ul>
-                          
+
                         </div>
                     </li>
                 </ul>
@@ -221,49 +345,49 @@
                 <ul class="list  regular-customers__list    ">
                     <li class="regular-customers__item">
                         <a class="regular-customers__link"> <svg class="regular-customers__icon" width="106"
-                            height="60"  >
-                            <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-a"></use>
-                        </svg></a>
-                       
+                                height="60">
+                                <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-a"></use>
+                            </svg></a>
+
                     </li>
                     <li class="regular-customers__item">
                         <a class="regular-customers__link"> <svg class="regular-customers__icon" width="106"
-                            height="60"  >
-                            <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-b"></use>
-                        </svg></a>
-                       
+                                height="60">
+                                <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-b"></use>
+                            </svg></a>
+
                     </li>
                     <li class="regular-customers__item">
                         <a class="regular-customers__link"> <svg class="regular-customers__icon" width="106"
-                            height="60"  >
-                            <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-c"></use>
-                        </svg></a>
-                       
+                                height="60">
+                                <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-c"></use>
+                            </svg></a>
+
                     </li>
                     <li class="regular-customers__item">
                         <a class="regular-customers__link"> <svg class="regular-customers__icon" width="106"
-                            height="60"  >
-                            <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-d"></use>
-                        </svg></a>
-                       
+                                height="60">
+                                <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-d"></use>
+                            </svg></a>
+
                     </li>
                     <li class="regular-customers__item">
                         <a class="regular-customers__link"> <svg class="regular-customers__icon" width="106"
-                            height="60"  >
-                            <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-i"></use>
-                        </svg></a>
-                       
+                                height="60">
+                                <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-i"></use>
+                            </svg></a>
+
                     </li>
                     <li class="regular-customers__item">
                         <a class="regular-customers__link"> <svg class="regular-customers__icon" width="106"
-                            height="60"  >
-                            <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-f"></use>
-                        </svg></a>
-                       
+                                height="60">
+                                <use href="img/symbol-defs.svg#icon-postoyannie-klienti-logo-f"></use>
+                            </svg></a>
+
                     </li>
 
 
-                   
+
                 </ul>
             </div>
         </section>
@@ -288,15 +412,13 @@
 
     </main>
 
+   
     <footer class="footer">
         <div class="container footer__box">
           <div class="adress-and-logo-box">
             <a class="adress-and-logo-box__link" href="">
-                <p class="adress-and-logo-box--Color"><span class="logo">Web</span>Studio</p>
-            </a>
-           <!-- <a class="adress-and-logo-box__link" href="">
                 <span class="adress-and-logo-box--Color">Web</span><span class="adress-and-logo-box--color">Studio</span>
--->
+
             </a>
             <address class=" address">
                 <p class="address__text">г. Киев, пр-т Леси Украинки, 26Б</p>
@@ -336,69 +458,74 @@
        
     </footer>
 
-<div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-        <button data-modal-close class="modal__button" type="button"><svg width="18"
-            height="18" class="modal__icon">
-            <use href="img/spred.svg#iconcloseblack18dpsd" ></use>
-        </svg></button>
-        <div class="modal__buffer">
-        <b class="modal__title">Оставьте свои данные, мы вам перезвоним</b>
-       
-           
-            <form class="form">
-        <label class="form__label"  > Имя
-        <input class="form__input"  type="text" name="name"  >
-  <svg  class="form__icon" width="12"
-        height="12"><use href="img/icons.svg#icon-chelovek" ></use></svg>
-    </label>
-        <label class="form__label" >Телефон
-        <input class="form__input" type="tel" name="tel" >
-       <svg class="form__icon" width="13" height="13"><use href="img/icons.svg#icon-tel"></use></svg>
-    
-    </label>
-        <label class="form__label" >Почта
-        <input class="form__input" type="email" name="email" >
-        <svg class="form__icon" width="15" height="12"><use href="img/icons.svg#icon-mail-1"></use></svg>
-    </label>
-        <label class="form__label" >Комментарий
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button data-modal-close class="modal__button" type="button"><svg width="18" height="18"
+                    class="modal__icon">
+                    <use href="img/spred.svg#iconcloseblack18dpsd"></use>
+                </svg></button>
+            <div class="modal__buffer">
+                <b class="modal__title">Оставьте свои данные, мы вам перезвоним</b>
 
-<textarea class="form__textarea" name="feedback"   placeholder="Введите текст"></textarea></label>
-<div role="group" class="checkbox-group">
-   
-   
-     <label class="checkbox-group__label" for="checkbox">
-        <input type="checkbox" class="checkbox-group__input" name="soglasie" value="Соглашаюсь с рассылкой и принимаю Условия договора" id="checkbox">
-         <span class="checkbox-group__icon"></span>Соглашаюсь с рассылкой и принимаю&nbsp;<a  class="checkbox-group__link" href="" > Условия договора</a></label>
-</div>
-<button class="checkbox-group__button" type="submit">Отправить</button>
-            </form>
-        
+
+                <form class="form">
+                    <label class="form__label"> Имя
+                        <input class="form__input" type="text" name="name">
+                        <svg class="form__icon" width="12" height="12">
+                            <use href="img/icons.svg#icon-chelovek"></use>
+                        </svg>
+                    </label>
+                    <label class="form__label">Телефон
+                        <input class="form__input" type="tel" name="tel">
+                        <svg class="form__icon" width="13" height="13">
+                            <use href="img/icons.svg#icon-tel"></use>
+                        </svg>
+
+                    </label>
+                    <label class="form__label">Почта
+                        <input class="form__input" type="email" name="email">
+                        <svg class="form__icon" width="15" height="12">
+                            <use href="img/icons.svg#icon-mail-1"></use>
+                        </svg>
+                    </label>
+                    <label class="form__label">Комментарий
+
+                        <textarea class="form__textarea" name="feedback" placeholder="Введите текст"></textarea></label>
+                    <div role="group" class="checkbox-group">
+
+
+                        <label class="checkbox-group__label" for="checkbox">
+                            <input type="checkbox" class="checkbox-group__input" name="soglasie"
+                                value="Соглашаюсь с рассылкой и принимаю Условия договора" id="checkbox">
+                            <span class="checkbox-group__icon"></span>Соглашаюсь с рассылкой и принимаю&nbsp;<a
+                                class="checkbox-group__link" href=""> Условия договора</a></label>
+                    </div>
+                    <button class="checkbox-group__button" type="submit">Отправить</button>
+                </form>
+
+            </div>
         </div>
     </div>
-</div>
-<script>
+    <script>
 
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector('[data-modal-open]'),
-    closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]'),
-  };
+        (() => {
+            const refs = {
+                openModalBtn: document.querySelector('[data-modal-open]'),
+                closeModalBtn: document.querySelector('[data-modal-close]'),
+                modal: document.querySelector('[data-modal]'),
+            };
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+            refs.openModalBtn.addEventListener('click', toggleModal);
+            refs.closeModalBtn.addEventListener('click', toggleModal);
 
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-  }
-})();
+            function toggleModal() {
+                refs.modal.classList.toggle('is-hidden');
+            }
+        })();
 
 
-</script>
+    </script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
-
-
-

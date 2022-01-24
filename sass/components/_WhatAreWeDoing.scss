@@ -33,6 +33,11 @@
 
 .what-are-we-doing {
 	padding-top: 0px;
+	display: flex;
+	@media screen and (max-width:1199px){
+		display: none;
+	}
+
 }
 
 .what-are-we-doing__title {

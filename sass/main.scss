@@ -1,21 +1,11 @@
 @import "./base/styles";
 @import "./utils/vars";
-@import "./components/mobile-footer";
-/*
-@import "./components/ourTeam-mobila";
-@import "./components/_WhatAreWeDoing-mobila";
-@import "./components/\ OurQualities-mobila";
-@import "./components/modal-mob-tam";
-
-*/
-@import "./components/OurTeam";
+@import "./components/header";
+@import "./components/footer";
 @import "./components/\ OurQualities";
 @import "./components/modal-window";
-
+@import "./components/OurTeam";
 @import "./components/Portfolio-main";
 @import "./components/WhatAreWeDoing";
 @import "./components/block-hero";
-@import "./components/mobila";
-@import "./components/header";
-@import "./components/footer";
-
+@import "./components/tel-menu";

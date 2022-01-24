@@ -1,41 +1,69 @@
 
-
 /* наши качества */ 
 
-
 .OurAdvantages {
-	padding-left: 0px;
-	display: flex;
-	margin: 0px;
+	@media screen and (min-width:768px){
+display: flex;
+flex-wrap: wrap;
+	}
+	@media screen and (min-width:768px) and (max-width:1199px){
+margin: -15px;
+			}
 }
 
 .OurAdvantages__item + .OurAdvantages__item {
-	margin-left: 30px;
+@media screen and (max-width:767px){
+		margin-top: 30px;
+	}
 }
+
 
 .OurAdvantages__item {
-	width: 270px;
-}
+	@media screen and (min-width:480px){
+		max-width: 450px;
+	}
+	@media screen and (min-width:768px) and (max-width:1199px){
+		flex-basis: calc(100%/2 - 60px) ;
+		margin: 15px;
+	}	
+    @media screen and (min-width:1200px){
+		width: 270px;
+	}
+				& + &{
+										@media screen and (min-width:1200px){
+		margin-left: 30px;
+					}
+				}
+	
+ }
 
-.OurAdvantages__box {
-	width: 270px;
-	height: 120px;
-}
+				
+
+
 
 .OurAdvantages__box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.OurAdvantages__box {
 	margin-bottom: 30px;
-}
-
-.OurAdvantages__box {
 	background: #F5F4FA;
 	border-radius: 4px;
+
+	@media screen and (min-width:480px){
+		width: 450px;
+		height: 120px;
+	}
+	@media screen and (min-width:768px){
+		width: 354px;
+		height: 120px;
+	}
+	@media screen and (min-width:1200px){
+	width: 270px;
+	height: 120px;
+	}
 }
+
+
 
 .iconki-main-top .OurAdvantages__box + .OurAdvantages__box {
 	margin-left: 30px;
@@ -46,47 +74,79 @@
 }
 
 .OurAdvantages__title {
+	text-align: center;
 	font-weight: 700;
 	size: 14px;
 	line-height: 1.17;
 	margin-bottom: 10px;
 	margin-top: 0px;
 	text-transform: uppercase;
+	@media screen and (min-width:768px){
+		text-align: start ;
+	}
 }
 
 .OurAdvantages__text {
+	
+	@media screen and (min-width:768px){
+		width: 354px;
+	}
+	@media screen and (min-width:1200px){
+		width: 270px; 
+	}
+	
 	margin: 0px;
 	color: var(--color-b);
 	font-size: 14px;
 	line-height: 1.14;
 	font-weight: normal;
+	letter-spacing: 0.03em;
 }
-
+/* постоянные клиенты */ 
 
 .regular-customers__title {
 	font-weight: 700;
 	size: 36px;
 	line-height: 1.17;
 	text-align: center;
+	margin-bottom: 30px;
+	@media screen and (min-width:768px){
 	margin-bottom: 50px;
+	}
 }
 
 .regular-customers__list {
-	display: flex;
+display: flex;
+@media screen and (max-width:1199px){
+	margin: -15px;
+	flex-wrap: wrap;
+}
 }
 
-.regular-customers__item + .regular-customers__item {
-	margin-left: 30px;
+.regular-customers__item {	
+	@media screen and (max-width:767px){
+	margin: 15px;
+	width: 210px;
+	}
+		
+
+	@media screen and (min-width:768px) and (max-width:1199px){
+		width: 226px;
+		margin: 15px;
+	}
+		@media screen and (min-width:1200px){
+    width: 170px;
+	}
+	& + & {
+	@media screen and  (min-width:1200px){
+		margin-left: 30px;
+	}
+}
 }
 
-.regular-customers__item {
-	width: 170px;
-	height: 92px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-}
+
+
+
 
 
 
@@ -100,27 +160,24 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 170px;
-	height: 92px;
+	transition-property: border;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	cursor: pointer;
+	&:hover {
+		border: 1px solid var(--color-a)}
+	
 }
 
 
 
 .regular-customers__icon {
+	margin: 16px 32px;
+	fill: #AFB1B8;
 	transition-property: fill;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	fill: #AFB1B8;
-	.regular-customers__item:hover & {
-		fill: var(--color-a);
-			border: 1px solid var(--color-a);
-	border-radius: 4px;
-	}
 }
-
-
-
-
-
-
-
+.regular-customers__link:hover .regular-customers__icon{
+		fill: var(--color-a);
+		}

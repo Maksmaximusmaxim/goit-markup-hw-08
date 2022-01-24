@@ -220,8 +220,14 @@
 }
 
 .modal {
-	width: 528px;
-	height: 581px;
+	@media screen and (min-width:1200px){
+		width: 528px;
+	height: 581px;	
+	}
+@media screen and (max-width:1199px){
+	width: 450px;
+	height: 609px;
+}
 	background: var(--color-d);
 	position: absolute;
 	top: 50%;

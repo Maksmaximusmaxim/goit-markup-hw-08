@@ -3,12 +3,12 @@ h1,h2,h3,h4,h5,h6,ul,a,p,li {
 	margin: 0px;
 	padding: 0px;
 }
-
-
+ul{
+	list-style: none;
+}
 img {
-	max-width: 100%;
+	width: 100%;
 	display: block;
-	height: auto;
 }
 
 p {
@@ -18,8 +18,14 @@ p {
 }
 
 .section {
+
+	padding-top: 60px;
+	padding-bottom: 60px;
+	@media screen and (min-width:1200px){
 	padding-top: 94px;
 	padding-bottom: 94px;
+	}
+
 }
 
 h3 {
@@ -29,41 +35,32 @@ h3 {
 }
 
 .container {
-	
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	@media screen and (min-width:480px){
-		width: 480px;
-	}
-	@media screen and (min-width:768px){
-		width: 768px;
-	}
-	@media screen and (min-width:1200px){
-		width: 1200px;
-	}
+	width: 480px;
+@media screen and (min-width:768px){
+	width: 768px;
 }
-
-.container {
+@media screen and (min-width:1200px){
 	width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
+}
 }
 
-.section {
-	margin-top: 94px;
-	margin-bottom: 94px;
-}
 
-.section {
-	margin: 0px;
-}
+
+
+
 
 h2 {
-	font-size: 36px;
+	
 	line-height: 1.16;
 	font-weight: bold;
+	font-size: 28px;
+	@media screen and (min-width:1200px){
+		font-size: 36px;
+	}
 }
 
 .list {
