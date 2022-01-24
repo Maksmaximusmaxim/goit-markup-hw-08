@@ -1,0 +1,74 @@
+
+h1,h2,h3,h4,h5,h6,ul,a,p,li {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+p {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 1.18;
+	font-weight: 500;
+}
+
+.container {
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	@media screen and (min-width:480px){
+		width: 480px;
+	}
+	@media screen and (min-width:768px){
+		width: 768px;
+	}
+	@media screen and (min-width:1200px){
+		width: 1200px;
+	}
+}
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section {
+	margin-top: 94px;
+	margin-bottom: 94px;
+}
+
+.section {
+	margin: 0px;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 1.16;
+	font-weight: bold;
+}
+
+.list {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
