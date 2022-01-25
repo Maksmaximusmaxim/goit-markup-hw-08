@@ -718,7 +718,6 @@ body.modal-open {
 }
 
 .OurAdvantages__text {
-  margin: 0px;
   color: var(--color-b);
   font-size: 14px;
   line-height: 1.7;
