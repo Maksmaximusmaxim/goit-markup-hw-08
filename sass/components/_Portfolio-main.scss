@@ -7,14 +7,14 @@
 	display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    @media screen and (max-width:767px){
-       margin-bottom: 40px;   
-       }
+    margin-bottom: 40px;
     @media screen and (min-width:768px){
      justify-content: center;
-	margin-bottom: 50px;   
+	margin-bottom: 30px;   
     }
-	
+	@media screen and (min-width:1200px){
+        margin-bottom: 50px;
+       }
 }
 
 
@@ -25,16 +25,13 @@
 		margin-right: 8px;
 	}
 }
-.button-list__item:nth-child(4){
+.button-list__item:nth-child(-n+3){
     @media screen and (max-width:767px){
-       margin-top:15px;   
+       margin-bottom:15px;   
        }
 }
-.button-list__item:nth-child(5){
-    @media screen and (max-width:767px){
-       margin-top:15px;   
-       }
-}
+
+
 .button-list__button {
 	background: var(--color-k);
 	color: var(--color-c);
@@ -128,83 +125,47 @@ margin-top: 30px;
     transform: translate(0%);
 }
 
-.kard-set__box{
-    position: relative;
-}
+
 
 .overflo{
     position: relative;
     overflow: hidden;
-}
-
-.containerstextom{
-    background: var(--color-a)  ;
-}
-.containerstextom{
-    @media screen and (min-width:480px){
-    width:450px ;
-    height: 294px;
-    }
-    @media screen and (min-width:768px){
-    width:354px ;
-    height: 294px;
-    }
-    @media screen and (min-width:1200px){
-    width:370px ;
-    height: 294px;
-    }
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     position: absolute;
-    top: 0;
-    right: 0;
     
 }
 
 
-.containerstextom::before{
-    transform: translate(100%);
-}
-
 .containerstextom{
+    padding: 63px 24px;
+    background: var(--color-a)  ;
+     position: absolute;
+     top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    
 }
 
+
+
+
+
+
 .textnaportfolionakartochki{
-    color: var(--color-d) ;
-    font-weight: normal;
+color: var(--color-d) ;
+font-weight: normal;
 font-size: 18px;
 line-height: 28px;
-
 }
-.textnaportfolionakartochki{
-    @media screen and (min-width:480px){
-    width: 402px;
-    height: 140px ;
-    letter-spacing: 0.03em;
-    }
-    @media screen and (min-width:768px){
-    width: 306px;
-    height: 196px ;
-    letter-spacing: 0.03em;
-    }
-    @media screen and (min-width:1200px){
-    width: 322px;
-    height: 168px ;
-    letter-spacing: 0.03em;
-    }
 
 
-
-}
 .description-box__title{
     font-size: 18px;
 line-height: 2;
 font-weight: bold;
 color: var(--color-c);
+letter-spacing: 0.06em;
 }
 .description-box__text{
     font-size: 16px;

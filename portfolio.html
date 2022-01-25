@@ -29,21 +29,52 @@
 
             <nav class="navbar">
                 <ul class="navbar__list list">
-                    <li class="navbar__item"> <a class="navbar__link  " href="./index.html">Студия</a> </li>
-                    <li class="navbar__item"> <a class="navbar__link navbar__link--active" href="./portfolio.html">Портфолио </a></li>
+                    <li class="navbar__item"> <a class="navbar__link  "
+                            href="./index.html">Студия</a> </li>
+                    <li class="navbar__item"> <a class="navbar__link mobile__link--active" href="./portfolio.html">Портфолио </a></li>
                     <li class="navbar__item"> <a class="navbar__link" href="">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="header-list list">
-                <li class="header-list__item "> <a class="header-list__link " href="mailto:info@devstudio.com"><svg class="header-list__icon"  width="16"
-                    height="12" ><use href="img/symbol-defs.svg#icon-header-logo-a"  ></use></svg>info@devstudio.com</a> </li>
-                <li class="header-list__item "> <a class="header-list__link " href="tel:+380961111111"><svg class="header-list__icon" width="16"
-                    height="12"  ><use href="img/symbol-defs.svg#icon-header-logo-b"></use></svg>+38 096 111 11 11</a> </li>
+                <li class="header-list__item "> <a class="header-list__link " href="mailto:info@devstudio.com"><svg
+                            class="header-list__icon" width="16" height="12">
+                            <use href="img/symbol-defs.svg#icon-header-logo-a"></use>
+                        </svg>info@devstudio.com</a> </li>
+                <li class="header-list__item "> <a class="header-list__link " href="tel:+380961111111"><svg
+                            class="header-list__icon" width="16" height="12">
+                            <use href="img/symbol-defs.svg#icon-header-logo-b"></use>
+                        </svg>+38 096 111 11 11</a> </li>
             </ul>
+        
+        <button type="button" class="menu-button is-open" aria-expanded="false" data-menu-button>
+            <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                <use class="menu-button__icon--cross" href="./img/modal-window-icon-mobile.svg#icon-close_40px"></use>
+                <use class="menu-button__icon--menu" href="./img/modal-window-icon-mobile.svg#icon-menu_40px"></use>
+            </svg>
+        </button>
+        <div class="mobile__menu-container" data-menu>
+            <ul class="mobile__list">
+                <li class="mobile__item"><a href="./index.html" class="mobile__link">Студия</a></li>
+                <li class="mobile__item"><a href="./portfolio.html" class="mobile__link mobile__link--active">Портфолио</a></li>
+                <li class="mobile__item"><a href="" class="mobile__link">Контакты</a></li>
+            </ul>
+            <div class="mobile__block">
+                <ul class="mobile__contakts">
+                    <li class="mobile__contakts-item"><a class="mobile__contakts-tel" href="tel:380961111111">+38
+                            096 111 11 11</a></li>
+                    <li class="mobile__contakts-item"><a class="mobile__contakts-mail"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>
+                <ul class="mobile__social">
+                    <li class="mobile__social-icon"><a class="mobile__social-link" href="">Instagram</a></li>
+                    <li class="mobile__social-icon"><a class="mobile__social-link" href="">Twitter</a></li>
+                    <li class="mobile__social-icon"><a class="mobile__social-link" href="">Facebook</a></li>
+                    <li class="mobile__social-icon"><a class="mobile__social-link" href="">LinkedIn</a></li>
+                </ul>
+            </div>
         </div>
-       
+    </div>
     </header>
-
     <main>
         <section class="section">
 
@@ -115,7 +146,10 @@
                         ./img/c-computer@2x.jpg 740w,
                         ./img/c-mobile@2x.jpg 900w
                         "
-                        src="./img/c.jpg" alt="kartinka" sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width:480px) 450px, 100vw  " /> <div class="containerstextom"><p class="textnaportfolionakartochki">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p></div></div>
+                        src="./img/c.jpg" alt="kartinka" sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width:480px) 450px, 100vw  " /> 
+                        <div class="containerstextom">
+                            <p class="textnaportfolionakartochki">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                        </div></div>
                         
                         <div class="description-box">
                             <h2 class="description-box__title">Ресторан Seafood</h2>
@@ -289,7 +323,7 @@
        
     </footer>
 
-
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>

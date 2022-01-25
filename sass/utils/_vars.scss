@@ -3,7 +3,9 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
-
+body.modal-open {
+	overflow: hidden;
+}
 :root {
 	--color-a: #2196F3;
 	--color-b: #757575;
