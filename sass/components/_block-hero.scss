@@ -54,8 +54,13 @@
 }
 
 .block-hero__text {
+	
+	@media screen and (min-width:1200px){
 	font-size: 44px;
 	line-height: 1.36;
+	}
+	font-size: 26px;
+line-height: 42px;
 	font-weight: 900;
 	color: var(--color-d);
 	text-transform: uppercase;

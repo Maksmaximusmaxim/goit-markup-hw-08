@@ -171,6 +171,17 @@ color: var(--color-b)
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 24px;
-    padding-left: 24px;
+    padding-left: 24px; 
 
 }
+
+.description-box-1 {
+    border: 1px solid #EEEEEE;
+    border-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px; 
+   @media screen and (min-width:768px) and (max-width:1200px){
+        padding-bottom: 56px;
+    } }
