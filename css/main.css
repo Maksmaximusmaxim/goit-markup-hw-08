@@ -42,7 +42,12 @@ h3 {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 480px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -332,14 +337,6 @@ body.modal-open {
   background: var(--color-c);
 }
 
-@media screen and (max-width: 430px) {
-  .footer {
-    padding-bottom: 60px;
-    padding-top: 60px;
-    background: var(--color-c);
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-form-box {
     margin-right: auto;
@@ -403,9 +400,15 @@ body.modal-open {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 480px) {
   .footer-form__input {
     width: 450px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-form__input {
+    width: 100%;
   }
 }
 

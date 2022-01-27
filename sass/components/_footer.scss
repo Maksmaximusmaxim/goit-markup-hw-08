@@ -14,11 +14,6 @@
 }
 
 .footer {
-	@media screen and (max-width:430px){
-		padding-bottom: 60px;
-		padding-top: 60px;
-		background: var(--color-c);	
-		}
 	padding-bottom: 60px;
 	padding-top: 60px;
 	background: var(--color-c);
@@ -68,9 +63,12 @@
 	background-color: transparent;
 	color: #FFFFFF;
 
-	@media screen and (max-width:1199px){
+	@media screen and (min-width:480px){
 		width: 450px;	
 		}
+		@media screen and (max-width:480px){
+			width: 100%;	
+			}
 	@media screen and (min-width:1200px){
 	width: 358px;	
 	}
