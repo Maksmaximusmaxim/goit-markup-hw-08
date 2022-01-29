@@ -81,8 +81,15 @@
 }
 
 .checkbox-group__label {
+	@media screen and (max-width:479px){
+		font-size: 8px;
+	}
+	@media screen and (min-width:1200px){
+		font-size: 14px;
+	}
+	font-size: 12px;
 	font-weight: normal;
-	font-size: 14px;
+	
 	line-height: 24px;
 	display: flex;
 	align-items: center;
@@ -220,14 +227,20 @@
 }
 
 .modal {
+	@media screen and (max-width:479px){
+	width: 350px;
+	height: 609px;
+	}
+	@media screen and (min-width:480px){
+		width: 450px;
+		height: 609px;
+	}
 	@media screen and (min-width:1200px){
 		width: 528px;
 	height: 581px;	
 	}
-@media screen and (max-width:1199px){
-	width: 450px;
-	height: 609px;
-}
+
+
 	background: var(--color-d);
 	position: absolute;
 	top: 50%;

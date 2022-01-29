@@ -129,6 +129,9 @@ margin-top: 30px;
     overflow: hidden;   
 }
 .containerstextom{
+    @media screen and (max-width:479px) {
+        padding: 30px 15px;
+    }
     padding: 63px 24px;
     background: var(--color-a)  ;
      position: absolute;

@@ -85,6 +85,9 @@ transition: transform 300ms linear;
  margin-bottom: 32px;
  }
  .mobile__contakts-tel {
+     @media screen and (max-width:479px){
+         font-size: 28px;
+     }
 color: #2F303A ;
 font-style: normal;
 font-weight: 500;

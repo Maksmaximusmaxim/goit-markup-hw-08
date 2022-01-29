@@ -942,8 +942,8 @@ body.modal-open {
 }
 
 .checkbox-group__label {
+  font-size: 12px;
   font-weight: normal;
-  font-size: 14px;
   line-height: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -953,6 +953,18 @@ body.modal-open {
           align-items: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+@media screen and (max-width: 479px) {
+  .checkbox-group__label {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .checkbox-group__label {
+    font-size: 14px;
+  }
 }
 
 .checkbox-group__input:checked + .checkbox-group__icon {
@@ -1121,17 +1133,24 @@ body.modal-open {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 350px;
+    height: 609px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
     height: 581px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .modal {
-    width: 450px;
-    height: 609px;
   }
 }
 
@@ -1507,6 +1526,12 @@ body.modal-open {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 479px) {
+  .containerstextom {
+    padding: 30px 15px;
+  }
 }
 
 .textnaportfolionakartochki {
@@ -1885,6 +1910,12 @@ body.modal-open {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 479px) {
+  .mobile__menu-container .mobile__contakts-tel {
+    font-size: 28px;
+  }
 }
 
 .mobile__menu-container .mobile__contakts-tel:hover, .mobile__menu-container .mobile__contakts-tel:focus {
